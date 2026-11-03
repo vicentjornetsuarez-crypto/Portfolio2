@@ -1,6 +1,6 @@
 # Portfolio personal v1
 
-Portfolio personal desarrollado con HTML5 semántico y accesible, pensado como primera versión del sitio web profesional de Alex García.
+Portfolio personal desarrollado con HTML5 semántico y accesible, pensado como primera versión del sitio web profesional de Vicent Jornet, estudiante de DAM en Alzira.
 
 ## Páginas
 
