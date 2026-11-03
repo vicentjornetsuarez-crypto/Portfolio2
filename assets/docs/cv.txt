@@ -1,0 +1,20 @@
+Alex García
+Desarrollador web en formación
+
+Formación:
+- Desarrollo de Aplicaciones Web
+- Bachillerato Tecnológico
+
+Competencias:
+- HTML5 semántico
+- Accesibilidad web
+- Git y GitHub
+- Diseño responsive
+
+Idiomas:
+- Español: nativo
+- Inglés: B1
+
+Contacto:
+- alex.garcia@example.com
+- https://github.com/usuario

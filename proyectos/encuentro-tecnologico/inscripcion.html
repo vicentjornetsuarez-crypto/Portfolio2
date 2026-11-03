@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encuentro Tecnológico | Inscripción</title>
+    <meta name="description" content="Formulario de inscripción al encuentro tecnológico." />
+  </head>
+  <body>
+    <a href="#contenido" class="skip-link">Saltar al contenido</a>
+    <header>
+      <h1>Inscripción</h1>
+      <nav aria-label="Navegación del evento">
+        <ul>
+          <li><a href="portada.html">Portada</a></li>
+          <li><a href="programa.html">Programa</a></li>
+          <li><a href="inscripcion.html" aria-current="page">Inscripción</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <form action="mailto:encuentro@centro.com" method="post" enctype="text/plain">
+        <fieldset>
+          <legend>Datos de participación</legend>
+
+          <p>
+            <label for="nombre">Nombre:</label>
+            <input id="nombre" name="nombre" type="text" required />
+          </p>
+
+          <p>
+            <label for="apellidos">Apellidos:</label>
+            <input id="apellidos" name="apellidos" type="text" required />
+          </p>
+
+          <p>
+            <label for="curso">Curso:</label>
+            <select id="curso" name="curso" required>
+              <option value="">Selecciona una opción</option>
+              <option value="1eso">1º ESO</option>
+              <option value="2eso">2º ESO</option>
+              <option value="3eso">3º ESO</option>
+              <option value="4eso">4º ESO</option>
+              <option value="bachillerato">Bachillerato</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="comentario">Comentarios:</label>
+            <textarea id="comentario" name="comentario" rows="5"></textarea>
+          </p>
+
+          <p>
+            <button type="submit">Enviar inscripción</button>
+          </p>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <p>© 2026 Encuentro Tecnológico</p>
+      <p><a href="../../index.html">Volver al portfolio</a></p>
+    </footer>
+  </body>
+</html>
